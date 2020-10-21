@@ -15,7 +15,7 @@ routes.post('/', jsonParser, (req,res) => {
     const petShopData = (nome, valor, distancia) => ({nome, valor, distancia})
     const diaDaSemana = dataDiaDaSemana(data)
 
-    if(!diaDaSemana.isWeekend){
+    if(!diaDaSemana.fimDeSemana){
         
         const valorMeuCanino = ((petsPequenos * 20) + (petsGrandes * 40))
         const valorVaiRex = ((petsPequenos * 15) + (petsGrandes * 50))

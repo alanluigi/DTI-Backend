@@ -15,7 +15,7 @@ Back-end construído utilizando Node JS. A aplicação possui uma rota com o mé
 Método post:
 Requisição - Recebe através do body os dados contendo os parâmetros inseridos pelo usuário no front-end, utilizado a desestruturação para obter os dados.
 
-dataDiaDaSemana – Função recebe como parâmetro a data, obtida através do body e retorna o dia da semana e um boolean “isWeekend” para informar se é um fim de semana.
+dataDiaDaSemana – Função recebe como parâmetro a data, obtida através do body e retorna o dia da semana e um boolean “fimDeSemana” para informar se é um fim de semana.
 
 If Else- Utilizado para testar se o dia é um fim de semana, caso não seja o if executa os cálculos com base nos valores de dias úteis e retorna o petshop mais barato. Caso seja um fim de semana o else executa os cálculos com base nos valores de fins de semana e retorna o petshop mais barato.
 
