@@ -1,9 +1,11 @@
 Back-end Pets
 
 - Instalar dependências 
+
 $ yarn install
 
 - Executar localhost:3333
+
 $ yarn start
 
 Sobre o projeto
