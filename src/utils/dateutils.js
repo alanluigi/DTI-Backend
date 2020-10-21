@@ -1,7 +1,7 @@
 /**
  * string [string] formato dd/mm/aaaa
  */
- const dataToDiaDaSemana = (data) => {
+ const dataDiaDaSemana = (data) => {
     const dataArray = data.split("/");
     const diasSemana = [
       "Domingo",
@@ -22,4 +22,4 @@
     };
   };
 
-  module.exports = {dataToDiaDaSemana}
+  module.exports = {dataDiaDaSemana}
